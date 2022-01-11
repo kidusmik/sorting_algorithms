@@ -25,5 +25,9 @@ void selection_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 size_t len_list(const listint_t *h);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void quick_sort_main(int *array, int init, int final, size_t size);
+void shell_sort_main(int *array, size_t size, size_t gap, size_t index);
+void shell_sort(int *array, size_t size);
 
 #endif /* SORT_H */
