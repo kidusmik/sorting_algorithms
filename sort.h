@@ -31,5 +31,6 @@ void shell_sort_main(int *array, size_t size, size_t gap, size_t index);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_node(listint_t **list, listint_t *node);
+void counting_sort(int *array, size_t size);
 
 #endif /* SORT_H */
